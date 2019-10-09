@@ -1,0 +1,98 @@
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+body{
+    background: #454d60;
+    font-family: 'Cardo', serif;
+    color: #becad2;
+}
+.jumbotron {
+    background: transparent;
+    border: none;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    color: #ffcf00;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a{
+    font-family: 'Oswald', sans-serif;
+    color: #ffcf00;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #333333;
+    background-color: transparent;
+}
+
+.port-area {
+    padding: 0;
+    margin: 0;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(../images/next.png) no-repeat scroll 0 0;
+    border: none;
+    text-indent: -5000px;
+    right: -60px;
+    background-size: contain;
+}
+.slick-arrow.slick-prev {
+    background-image: url(../images/previous.png);
+    left:-60px;
+}
+
+.bg-light {
+    background: #4e576c;
+}
+.padding-vert {
+    padding: 60px 0;
+}
+
+.img-avatar {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 8px solid #d2d2d2;
+
+}
+.socialicons li {
+    margin: 30px 10px 0 0
+}
+.socialicons img {
+    width: 42px;
+    height: auto;
+}
+.socialicons img:hover {
+    opacity: .5;
+}
+.slick-slide li div {
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    color: #ffffff;
+    bottom: 0px;
+   
+}
+.slick-slide li div p {
+    z-index: 9999;
+    font-size: inherit;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
